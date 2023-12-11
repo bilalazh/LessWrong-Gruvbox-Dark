@@ -307,6 +307,13 @@
     }
    
     
+/*  Main bigger commment part theme     */
+    
+ .CommentsListSection-maxWidthRoot {
+    background-color: #282828 !important;
+    max-width: 720px;
+}
+    
     
 }
 
