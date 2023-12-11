@@ -129,6 +129,23 @@
 
    
 }
+/*  Top bar styles    */
+    
+
+    
+    .Header-titleLink {
+       color: var(--dark-green);
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+}
+        .Header-titleLink:hover {
+       color: var(--dark-orange);
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+}
+    
     
     /*  MAIN background color     */
   .Layout-whiteBackground {
@@ -189,6 +206,45 @@
     color: var(--text-offwhite);
 
 }
+    
+    
+    
+    .TableOfContentsRow-link {
+    /* styles for the link */
+         color: var(--text-offwhite);
+}
+
+.TableOfContentsRow-title {
+    /* styles for the title (make it like the backgound color*/
+     background-color: var(--bg0-dh);
+}
+/* Color of for teh side bars      */
+    .TableOfContentsRow-link:hover {
+    color: #d79921 !important;
+    opacity: 1;
+}
+    
+    .TableOfContentsRow-highlightDot{
+        color:var(--text-offwhite);
+    }
+    
+.TableOfContentsRow-highlightDot {
+    /* styles for the highlight dot */
+     color: var(--text-offwhite);
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }
