@@ -131,7 +131,7 @@
 }
 /*  Top bar styles    */
     
-
+/*  Less Wrong Text*/
     
     .Header-titleLink {
        color: var(--dark-green);
@@ -139,13 +139,18 @@
     font-size: 19px;
     align-items: center;
 }
-        .Header-titleLink:hover {
-       color: var(--dark-orange);
+        .Header-titleLink:hover{
+       color: var(--dark-green);
     display: flex;
     font-size: 19px;
     align-items: center;
 }
     
+    
+.MuiToolbar-root.MuiToolbar-root {
+  background-color: #282828 !important; /* replace 'newColor' with the color you want */
+}
+
     
     /*  MAIN background color     */
   .Layout-whiteBackground {
