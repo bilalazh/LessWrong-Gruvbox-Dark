@@ -242,7 +242,12 @@
     
     
     
+/* Comments     */
     
+    .CommentsNewForm-form {
+        background-color:#282828;
+    padding: 10px;
+}
     
     
     
