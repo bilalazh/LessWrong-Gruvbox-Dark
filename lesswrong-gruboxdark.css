@@ -248,6 +248,14 @@
         background-color:#282828;
     padding: 10px;
 }
+/* New COmment text      */
+    .CommentsListSection-newCommentLabel {
+    color: #fe8019;
+    font-size: 1.16rem;
+    margin-top: 12px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
     
     
     
