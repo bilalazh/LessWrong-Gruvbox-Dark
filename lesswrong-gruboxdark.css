@@ -294,14 +294,18 @@
     pointer-events: auto;
         color: #fe8019!important;
 }
-    
+/*      Text of comments */
     .MuiInputBase-inputMultiline {
            color: var(--dark-orange)!important;
     resize: none;
     padding: 0;
 }
+
     
-    
+    .ModerationGuidelinesBox-root {
+         background-color:#282828 !important; 
+    }
+   
     
     
 }
