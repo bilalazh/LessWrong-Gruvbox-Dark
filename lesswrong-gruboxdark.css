@@ -256,11 +256,50 @@
     font-weight: 600;
     line-height: 1.5rem;
 }
+/*   Buttons    */
+    
+    .MuiButtonBase-root {
+    color: #689d6a;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    justify-content: center;
+    -moz-appearance: none;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+    
+/*   Moderation comment    */
+    .ModerationGuidelinesBox-root {
+        color:#98971a !important;
+    padding: 16px;
+    position: relative;
+}
     
     
+  
     
+/* Cpmtent of the comments color      */
+    .ContentStyles-commentBody * {
+    pointer-events: auto;
+        color: #fe8019!important;
+}
     
-    
+    .MuiInputBase-inputMultiline {
+           color: var(--dark-orange)!important;
+    resize: none;
+    padding: 0;
+}
     
     
     
