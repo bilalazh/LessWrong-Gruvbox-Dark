@@ -132,25 +132,62 @@
     
     /*  MAIN background color     */
   .Layout-whiteBackground {
-    background: var(--bg1-dark);
+    background: var(--bg0-dh);
 }
     
 
  a {
  color: var(--fg-dark);
  }
-
+    
+    
+/* Applies to the border around the text box like in vim but not to the text itself  */
     p {
-         background: var(--fg-dark);
+         background: var(--bg0-dh);
     }
     
 /*Actual text color     */
     .ContentStyles-base, .ContentStyles-base blockquote, .ContentStyles-base li {
   
          color: var(--dark-green);
+        
+        
     font-size: 1.4rem;
 /*   Line height --defualt was 2        */
     line-height: 2rem;
+}
+    
+    
+/* By and Author  (BOX)    */
+    
+    .PostsPagePostHeader-authors {
+        
+    background-color: var(--dark-green);
+}
+    
+/* Author Name      */
+    .LWTooltip-root { 
+        color: var(--fg-dark);
+    }
+    
+    
+/*   CHANGES COLOR OF THE BY BUTTON IN THE POST    */
+    .Typography-root.Typography-body1.PostsAuthors-root {
+  /* Change the following styles to your desired values */
+  color: #fcfcfc;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}   
+    /* Background of the personl blog text   */
+    .FooterTagList-frontpageOrPersonal{
+        background-color:var(--dark-orange);:
+        color: var(--text-offwhite);
+    }
+/* Actual  Color of the text inside the blog button     */
+    .FooterTagList-frontpageOrPersonal {
+    color: var(--text-offwhite);
+
 }
     
     
