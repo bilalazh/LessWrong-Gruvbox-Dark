@@ -148,30 +148,68 @@
     
     
 .MuiToolbar-root.MuiToolbar-root {
-  background-color: #282828 !important; /* replace 'newColor' with the color you want */
+  background-color: #303030 !important; /* replace 'newColor' with the color you want */
 }
+
 
     
     /*  MAIN background color     */
   .Layout-whiteBackground {
-    background: var(--bg0-dh);
+    background: var(--bg0-dh) !important;
+}
+    
+/*  Your User Name     */
+ 
+   .UsersMenu-userButtonContents {
+    color: #fe8019;
+    font-size: 16px;
+    word-break: break-word;
+    font-weight: 400;
+    text-transform: none;
 }
     
 
+/*   Links in white in the side as well    */
  a {
- color: var(--fg-dark);
+ color: #d5c4a1;
  }
     
+/*   Side bar links    */
     
-/* Applies to the border around the text box like in vim but not to the text itself  */
-    p {
-         background: var(--bg0-dh);
+    a:-webkit-any-link {
+        
+    color: #faedcd !important ;
+    cursor: pointer;
+    text-decoration: underline;
+}
+    
+/*   HEADINGS   */
+    
+    h1{
+        color : #fb4934 !important ; 
     }
+    
+     h2{
+        color : #fabd2f !important ; 
+    }
+    
+    h3{
+        color : #b8bb26 !important ; 
+    }
+    
+        h4{
+        color : #8ec07c !important ; 
+    }
+    
+
     
 /*Actual text color     */
     .ContentStyles-base, .ContentStyles-base blockquote, .ContentStyles-base li {
   
-         color: var(--dark-green);
+         color: #d5c4a1 !important;
+        
+    
+    
         
         
     font-size: 1.4rem;
@@ -180,11 +218,25 @@
 }
     
     
+    /*Text HOVER   */
+    .ContentStyles-base:hover, .ContentStyles-base blockquote:hover, .ContentStyles-base li :hover {
+  
+         color: #f2e5bc !important;
+
+
+}
+    
+/*  SIDE BAR     */
+    .TableOfContentsRow-level0 .TableOfContentsRow-link {
+    color : #928374 !important
+}
+    
+    
 /* By and Author  (BOX)    */
     
     .PostsPagePostHeader-authors {
         
-    background-color: var(--dark-green);
+    background-color: black;
 }
     
 /* Author Name      */
@@ -211,7 +263,25 @@
     color: var(--text-offwhite);
 
 }
+/* TAGS on article page      */
+    .FooterTag-root {
+    color: rgba(210, 153, 153, .9) !important;
+    cursor: pointer;
+    border: solid 1px #eee;
+    display: inline-block;
+    font-family: GreekFallback,Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-right: 3px;
+    padding: 5px 6px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    background-color: #1d2021 !important;
+}
     
+    
+    .FooterTagList-frontpageOrPersonal {
+    color: var(--text-offwhite)!important;
+}
     
     
     .TableOfContentsRow-link {
@@ -250,7 +320,7 @@
 }
 /* New COmment text      */
     .CommentsListSection-newCommentLabel {
-    color: #fe8019;
+    color: #98971a;
     font-size: 1.16rem;
     margin-top: 12px;
     font-weight: 600;
@@ -281,25 +351,19 @@
     
 /*   Moderation comment    */
     .ModerationGuidelinesBox-root {
-        color:#98971a !important;
+        color:#d79921 !important;
     padding: 16px;
     position: relative;
 }
     
-    
-  
-    
-/* Cpmtent of the comments color      */
     .ContentStyles-commentBody * {
     pointer-events: auto;
-        color: #fe8019!important;
+    color: #a4bb4a!important;
 }
-/*      Text of comments */
-    .MuiInputBase-inputMultiline {
-           color: var(--dark-orange)!important;
-    resize: none;
-    padding: 0;
-}
+  
+    
+
+
 
     
     .ModerationGuidelinesBox-root {
@@ -315,8 +379,41 @@
 }
     
     
+    .CommentsItem-root {
+    background-color:#282828 !important ;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+    
+    .UsersNameDisplay-noColor {
+        color:#f57d26 !important;
+        background-color :#16181a !important;
+        
+        
+    .UsersNameDisplay-noColor {
+      color:#fb4934 !important;
+        background-color :white !important;
+}
+    
+    
+
+
+        
+    }
+/*   EXtras        */
+        .CommentsListSection-clickToHighlightNewSince, .CommentsListSection-inline {
+    color: #7c6f64 !important;
+    display: inline;
+}
+    
+/*   Reply button    */
+.CommentsItem-replyLink {
+    color: #fabd2f;
+    display: inline;
+    font-weight: 400;
+    margin-right: 8px;
 }
 
-
-
+}
 
