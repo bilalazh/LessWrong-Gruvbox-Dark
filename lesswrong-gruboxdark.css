@@ -195,15 +195,42 @@
     background-color: #427b58 !important;
 }
     
+/*POST COMMENTS CONTAINER       */
+    
+    .LWPostsItem-postsItem {
+        background-color :#282828 !important;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+}
     
     
     
     
+    .FilterMode-tag {
+    color: #ebdbb2;
+    border: solid 1px #ebdbb2;
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,.025);
+    font-weight: 400;
+    margin-right: 4px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    background-color: #f2e5bc;
+}
     
-    
-    
-    
-    
+    .FilterMode-tagLabel {
+        color:#16181a !important;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+}
     
     
     
