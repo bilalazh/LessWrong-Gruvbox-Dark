@@ -129,6 +129,23 @@
 
    
 }
+    
+/*   SIDE BARRR    */
+/* ALL STYLES GO HERE      */
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 /*  Top bar styles    */
     
 /*  Less Wrong Text*/
@@ -167,6 +184,78 @@
     font-weight: 400;
     text-transform: none;
 }
+/*  Star nect to the name     */
+    .KarmaChangeNotifier-starIcon {
+    color: #fe8019;
+}
+
+/*All the svg elements       */
+    .MuiSvgIcon-root {
+       color: #fe8019 !important;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 24px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    flex-shrink: 0;
+}
+    
+.intercom-lightweight-app-launcher-icon-open svg path {
+    fill: #9d0006;
+}
+    
+    
+    
+/*  React Section     */
+/*  React to SNIPPET dialogue box */
+    
+    .AddInlineReactionButton-palette {
+    max-width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px;
+    font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 12px;
+    background-color:#689d6a !important;
+}
+    
+/*Quotations colors       */
+/*  PARAGRPAH TAG that is reponsible for the Quotation colors as well     */
+     p:first-child {
+    margin-top: 0px;
+         color:#ebdbb2 !important;
+         
+}
+    
+    
+    img {
+  border-radius: 10px !important;
+}
+    
+    
+    
+    
+/*  Footnote    */
+    
+    
+    .FootnotePreview-hovercard{
+        background-color:#fb4934!important;
+    }
+    
+    
+/*Code related styles*/  
+    
+.ContentStyles-base code, .PostVersionHistory-selectedRevisionDisplay code, .PostVersionHistoryButton-selectedRevisionDisplay code, .SpotlightItem-description code, .SpotlightItem-editDescription .ck.ck-content.ck-editor__editable code, .TagVersionHistory-selectedRevisionDisplay code, .TagVersionHistoryButton-selectedRevisionDisplay code {
+    font-size: 0.7em;
+    font-family: "Liberation Mono", Menlo, Courier, monospace;
+    font-weight: 400;
+    padding-top: 3px;
+    line-height: 1.42;
+    padding-bottom: 3px;
+    background-color: #3c3836;
+    border-radius: 2px;
+}
+    
     
 
 /*   Links in white in the side as well    */
