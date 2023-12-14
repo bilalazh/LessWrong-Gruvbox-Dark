@@ -236,11 +236,68 @@
     /* Main bg color change      */
 /*This was changed to be one main panel and we changee th ebg color of it       */
     
-    
-    body:not([testing]) [data-selected="true"] {
-        background-color:#1d2021       !important;
-    transition: all 0.15s ease 0s;
+    element.style {
+    background-color: #1a1b1d !important;
 }
+    
+    
+.Layout-spacedGridActivated {
+     background-color: #1a1b1d !important;
+    
+    display: grid;
+    grid-template-areas: "navSidebar ... main ... sunshine";
+    grid-template-columns: minmax(0,min-content) minmax(0,1fr) minmax(0,min-content) minmax(0,1.4fr) minmax(0,min-content);
+}
+    
+    
+/* Main Page commenets */
+    
+    .RecentDiscussionThread-post {
+    background-color:#1a1b1d!important;
+        padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
+    
+    .RecentDiscussionThread-content {
+    background-color:#282828!important;
+            margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 1px;
+}
+    
+/*Weird Issue With the Fucking Page upadte*/
+    
+    .ContentStyles-commentBody * {
+        background-color :#16181a !important;
+    pointer-events: auto;
+    color: #79740e!important;
+}
+    
+    
+    .CommentFrame-condensed.comments-node-root {
+       background-color:#16181a !important;
+    margin-bottom: 4px;
+}
+    .SingleLineComment-root {
+ background-color:#3c3836 !important;
+    cursor: pointer;
+    position: relative;
+}
+    
+    .CommentsNode-parentScroll {
+        background-color:#427b58!important;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+    
+    
     
     
     
