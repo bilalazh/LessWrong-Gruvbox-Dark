@@ -305,6 +305,136 @@
     
     
     
+    
+    
+    
+/*Tag Pages */
+    
+/*Tag Page Header      */
+    
+    .TagPage-header {
+    background: #17191b !important;
+    padding: 19px 42px 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+    
+    
+    .TagPage-wikiSection {
+   background: #17191b !important;
+    margin-bottom: 24px;
+    padding: 5px 42px 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+    
+    
+    
+    .LWPostsItem-bottomBorder {
+        background-color:#3c3836 !important;
+    border-bottom: 2px solid #98971a;
+}
+    
+/*Year of Article Written       */
+    
+.PostsItemDate-postedAt.PostsItemDate-postedAt {
+    width: 38px;
+    color: #98971a !important;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+}
+    
+/*Last Iten Color for some Twisted Reason       */
+    .LWPostsItem-background {
+    width: 100%;
+    background: #3c3836 !important;
+}
+    
+    .TagContributorsList-contributorsHeading {
+        color :#689d6a !important;
+        
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+    
+    
+    
+    
+    
+   
+    
+    
+/*Search Bar */
+    
+    .SearchPageTabbed-searchInputArea .ais-SearchBox-input {
+    width: 100%;
+    color: #fabd2f;
+    height: 100%;
+    cursor: text;
+    font-size: 1.16rem;
+    box-shadow: none;
+    font-weight: 400;
+    font-family: GreekFallback,Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5rem;
+    border-style: none;
+    padding-right: 0;
+    vertical-align: bottom;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+    .SearchPageTabbed-funnelIconLW {
+    fill: #6ec398;
+}
+    
+    .MuiSelect-selectMenu {
+        color:#98971a!important;
+    width: auto;
+    overflow: hidden;
+    min-height: 1.1875em;
+    white-space: nowrap;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+}
+    
+    .MuiList-padding {
+        background-color:#3c3836!important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+    .ais-Snippet-highlighted{
+        color:#fbf1c7 !important;
+        background-color:#9d0006 !important;
+    }
+    
+    .ExpandedPostsSearchHit-snippet {
+    color: #d5c4a1;
+    font-size: 14px;
+    word-break: break-word;
+    margin-top: 7px;
+    font-family: warnock-pro,Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    line-height: 22px;
+    overflow-wrap: break-word;
+}
+    
+    .SearchPageTabbed-pagination, .SearchPageTabbed-resultCount, .SearchPagination-root {
+        color:#b8bb26 !important; 
+    font-family: GreekFallback,Calibri,"Gill Sans","Gill Sans MT",Myriad Pro,Myriad,"Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+    
+    
+    .UsersMenu-userButtonContents{
+        color:#b8bb26 !important;
+    }
+    
+    .Dropdownitem-title{
+        background-color : white !important;
+    }
+    
+    
+    
+    
 /*  Top bar styles    */
     
 /*  Less Wrong Text*/
