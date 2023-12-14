@@ -224,6 +224,7 @@
     background-color: #f2e5bc;
 }
     
+
     .FilterMode-tagLabel {
         color:#16181a !important;
     display: flex;
@@ -232,9 +233,14 @@
     justify-content: center;
 }
     
+    /* Main bg color change      */
+/*This was changed to be one main panel and we changee th ebg color of it       */
     
     
-    
+    body:not([testing]) [data-selected="true"] {
+        background-color:#1d2021       !important;
+    transition: all 0.15s ease 0s;
+}
     
     
     
@@ -266,7 +272,7 @@
 
 
     
-    /*  MAIN background color     */
+    /*  MAIN background color   inside the article ig   */
   .Layout-whiteBackground {
     background: var(--bg0-dh) !important;
 }
