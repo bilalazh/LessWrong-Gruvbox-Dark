@@ -51,8 +51,16 @@ Two right next to the icon shows that there are two styles active for the specif
 
 ## Screenshot <a name="screenshot"></a>
 
+#### Front Page Screenshot
+
+![Lw screenshot front page](https://github.com/bilalazh/LessWrong-Gruvbox-Dark/assets/139261053/3d3e8249-8e26-4910-ac79-990ae2f7db3d)
+
+---------------------- 
 
 
+#### Article (main ) Content Page 
+
+![Lw screenshot article page ](https://github.com/bilalazh/LessWrong-Gruvbox-Dark/assets/139261053/66ee0cf8-2f6f-417a-9245-726918dc7f25)
 
 
 
