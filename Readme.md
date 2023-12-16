@@ -34,7 +34,7 @@ This theme is in no way perfect, colors and other parts are subject to change ov
 
 ## Installation Instructions <a name="installation-instructions"></a>
 
-To install the style, go to this [LINK HERE](https://userstyles.world/style/12183/google-bard-gruvbox-dark-theme-enable-dark-mode)) and follow the instructions to install this style. 
+To install the style, go to this [LINK HERE](https://userstyles.world/style/13713/less-wrong-dark-theme-gruvbox) and follow the instructions to install this style. 
 
 
 
